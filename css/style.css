@@ -1,0 +1,97 @@
+/* API Admin Custom CSS */
+
+/** General **/
+body {
+	padding-top: 51px;
+	background-color: #0075c7;
+}
+
+h2 {
+	color: #FFFFFF;
+}
+
+/** Bootstrap Override **/
+.navbar-admin {
+	background-color: #003a63;
+	border-bottom: #003a63;
+}
+
+.navbar-admin .navbar-brand {
+	padding-top: 10px;
+}
+
+.navbar-admin .navbar-toggle {
+	background-color: #003a63;
+	border-color: #FFFFFF;
+}
+
+.navbar-admin .navbar-toggle span.icon-bar {
+	color: #FFFFFF;
+}
+
+.navbar-admin .navbar-toggle:hover, .navbar-admin .navbar-toggle:focus {
+	background-color: #00528c;
+}
+
+.navbar-admin .navbar-nav > li > a {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.navbar-admin .navbar-nav > li:hover > a {
+	color: #FFFFFF;
+	background-color: #003a63;
+}
+
+.navbar-admin .navbar-nav > li > a:focus {
+	color: #FFFFFF;
+}
+
+.well .panel {
+	margin-bottom: 0px;
+	margin-top: 5px;
+}
+
+.panel .icon {
+	margin-right: 15px;
+}
+
+td > .btn-group {
+	margin-top: -4px;
+}
+
+/** Custom **/
+.actions {
+	width: 120px;
+}
+
+.note {
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.box {
+	border-radius: 2px;
+	border: 1px solid #36a9e1;
+	margin-bottom: 30px;
+}
+
+.box-header {
+	/*background-color: #36a9e1;*/
+	background-color: #1e8fc6;
+	color: #FFFFFF;
+	padding: 10px;
+}
+
+.box-content {
+	background-color: #FFFFFF;
+	padding: 10px;
+}
+
+.chart-legend {
+	padding: 0px;
+}
+
+.chart-legend li {
+	display: inline;
+}
